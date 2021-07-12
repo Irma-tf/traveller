@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traveller</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
+
+
+  </head>
+  <body>
+    <section id="title">
+      <!--Navbar-->
+
+      <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Traveller</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#guide">Guide</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--Title-->
+
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <h1 class="big-heading">Explore Bosnia and Herzegowina in one app.</h1>
+          <button type="button"  class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+
+        <div class="title-image col-lg-6 col-md-6">
+          <img
+            class="coffee-image"
+            src="images/coffee.jpg"
+            alt="Bosnian traditional coffee"
+          />
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!--Features-->
+    <section id="features">
+
+      <div class="row">
+        <div class="feature-box col-lg-4 col-md-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p >So easy to use, feels like you have your own tour guide!</p>
+    
+        </div>
+        <div class="feature-box col-lg-4 col-md-4">
+          <i class="icon fas fa-search-location fa-4x"></i>
+          <h3 class="feature-title">Find your location</h3>
+          <p >Find which cities you like</p>
+        </div>
+  
+        <div class="feature-box col-lg-4 col-md-4">
+          <i class="icon fas fa-plane-departure fa-4x"></i>
+          <h3 class="feature-title">Explore</h3>
+          <p>Finally, adventure begins!</p>
+        </div>
+      </div>
+      
+
+      
+    </section>
+
+    <!--Pics with description-->
+
+    <section id="descriptions">
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <h2 class ="description-text">When you go to Sarajevo what you experience... is life</h2>
+            <img class= "description-image" src="images/sarajevo.jpg" alt="Sarajevo" />
+            <br><br><em>Sarajevo, at night</em>
+          </div>
+
+        <div class="carousel-item">
+          <h2 class ="description-text">Bihac, well..city of peace, love and the most beautiful river.</h2>
+          <img class= "description-image" src="images/bihac.jpg" alt="">
+          <br><br>
+          <em>Una, National Park</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2 class ="description-text">Bosnia has lots of charismatic old towns with a combination of Ottoman and Austrian styles. 
+            Tuzla is no different.</h2>
+          <img class= "description-image" src="images/tuzla.jpg" alt="Tuzla">
+          <br><br>
+          <em>Tuzla, "Korzo"</em>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+</div>
+
+      
+        
+
+     
+    </section>
+
+    <section id="guide">
+      <h2 class="section-heading">Try us for free!</h2>
+      <p>Find perfect location for yourself and enjoy!</p>
+
+      <div class="row">
+        <div class="guide-column col-lg-4 col-md-4 col-sm-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Calming and relaxing</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="guide-text">Bihac</h2>
+              <p>National park "Una"</p>
+              <p>"Strbacki Buk"</p>
+              <p>"Japodski otoci"</p>
+              <div class="d-grid gap-2">
+                <button class="btn btn-lg  btn-outline-dark" type="button">Visit</button>
+              </div>
+             
+            </div>   
+        </div>
+        
+        </div>
+        <div class="guide-column col-lg-4 col-md-4 col-sm-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Nightlife</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="guide-text">Sarajevo</h2>
+              <p>City that never sleep</p>
+              <p>Historical and cultural places</p>
+              <p>Trebevic cable car</p>
+              <div class="d-grid gap-2">
+                <button class="btn btn-lg  btn-outline-dark" type="button">Visit</button>
+              </div>
+              
+            </div>
+          
+          </div>
+        </div>
+        <div class="guide-column col-lg-4 col-md-4 ">
+          <div class="card">
+            <div class="card-header">
+              <h3>Family trip</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="guide-text">Tuzla</h2>
+              <p>Multicultural city</p>
+              <p>Historical places</p>
+              <p>Panonnian Lakes</p>
+              <div class="d-grid gap-2">
+                <button class="btn btn-lg btn-outline-dark" type="button">Visit</button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+        
+  
+      </div>
+      
+     
+      </section>
+    
+    <!--Call to action/make them visit and download-->
+    
+    <section id="cta">
+      <h3 class="big-heading">Visit Bosnia and Herzegowina, explore Its' beauty!</h3>
+      <button type="button"  class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+    </section>
+
+    <!--Footer-->
+
+    <footer id="footer">
+      <i class="social-icon icon fab fa-github fa-2x"></i>
+      <i class="social-icon icon fab fa-linkedin fa-2x"></i>
+      <p>© Copyright 2021 Traveller</p>
+    </footer>
+  </body>
+</html>

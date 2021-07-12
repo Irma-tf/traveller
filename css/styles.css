@@ -1,0 +1,181 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+    font-weight: 900; 
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/*Headings*/
+
+.big-heading {
+    font-family: "Montserrat";
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.section-heading {
+    font-size: 2.2rem;
+    line-height: 1.5;
+}
+
+/*Title*/
+
+#title {
+    background-color: #ffd56a;
+    color: #fff;
+    text-align: left;
+}
+
+.title-image {
+   position: relative; 
+   left: 7%; 
+}
+
+.coffee-image {
+    position: absolute;
+    width: 60%;
+    transform: rotate(25deg);
+    border-radius: 5%;
+}
+
+/*Navbar*/
+
+.navbar {
+    padding: 0 0 4rem;
+}
+.navbar-brand {
+    font-family: "Festive";
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;    
+  
+}
+
+.nav-link {
+    font-family: "Montserrat";
+    font-size: 1.2rem;  
+    font-weight: 400;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0 ;
+}
+
+/*Features*/
+
+#features {
+    padding: 7% 14%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;  
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+
+.feature-box {
+    
+    padding: 2%;
+}
+
+.icon {
+    color: #B8DFD8;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #4C4C6D;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/*Descriptions*/
+
+#descriptions {
+    background-color: #ffd56a;
+    color: #fff;    
+}
+
+
+.carousel-item {
+    padding: 7% 14%;
+    color: #fff;
+}
+
+.description-image {
+    width: 50%;
+    border-radius: 5%;
+    margin-top:5%;
+}
+
+.description-text {
+    font-size: 2.2rem;
+    line-height: 1.5;
+}
+
+/*Guide*/
+#guide {
+    padding: 100px;
+   
+}
+
+.guide-text {
+    font-size: 2.2rem;
+    line-height: 1.5;
+}
+.guide-column {
+    padding: 3% 2%;
+}
+
+
+/*CTA*/
+
+#cta {
+    background-color: #ffd56a;
+    color: #fff;
+    padding: 7% 15% 2%;    
+   
+}
+
+/*Footer*/
+
+#footer{
+    background-color: #fff;
+    padding: 2% 5%;
+    
+}
+
+.social-icon {
+    padding: 2% 1%;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        width: 100%;
+        position: static;
+    }
+    .coffee-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
